@@ -1,0 +1,36 @@
+{
+  "name": "SILENT-SOBX-MD",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²",
+  "logo": "https://telegra.ph/file/2a06381b260c3f096a612.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+    "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": "DARK-SILENCE-MD~KMYDVRTS#XNf3XsGyZj4NfyNlrwytAMazVsBJMh6Un0KPaxc4m6c"
+    },  
+    
+    "ALIVE_IMG": {
+      "description": "you can use this public mongodb url if you have your personal key So you can use him.",
+      "required": true,
+      "value": "https://i.ibb.co/mbGXCfd/Manul-Ofc-X.jpg"
+    },
+
+    "ALIVE_MSG": {
+      "description": "you can use this public mongodb url if you have your personal key So you can use him.",
+      "required": true,
+      "value": "*🤍HII I'M ONLINE DEAR*"
+   }
+   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
